@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    text-align: center;
+    margin: 5% 20%;
+    padding: 2%;
+    background-color:burlywood;
+    border-radius: 50px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.input-container button {
+    border-radius: 20px;
+    background-color: deepskyblue;
+    border-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.input-container button:hover {
+    background-color: aqua;
+}
+
+.input-container input {
+    border-style: none;
+}
