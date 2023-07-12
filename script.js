@@ -28,6 +28,12 @@ listContainer.addEventListener("click", function(e) {
     }
 }, false);
 
+document.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        AddTask();
+    }
+});
+
 function saveData() {
     localStorage.setItem("data", listContainer.innerHTML);
 }
