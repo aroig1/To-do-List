@@ -56,6 +56,7 @@ body {
 
 .input-container button:hover {
     background-color: rgb(226, 141, 44);
+    cursor: pointer;
 }
 
 ul li {
@@ -63,6 +64,10 @@ ul li {
     font-size: 15px;
     padding: 10px 10px 10px 50px;
     position: relative;
+}
+
+ul li:hover {
+    cursor: pointer;
 }
 
 ul li::before {
